@@ -13,67 +13,74 @@ public class Strings {
         System.out.println("5. String-vergleichen");
         System.out.println("6. StringBuilder");
         System.out.println("7. StringUmwandlung");
-        System.out.println("12. Return to main menu");
+        System.out.println("8. Return to main menu");
         //Read input
         int input = sc.nextInt();
 
         //Switch Case
         switch (input) {
             case 1:
-                System.out.println("ArrayList");
+                System.out.println("Strings");
                 outputStrings();
                 break;
             case 2:
-                System.out.println("LinkedList");
-                outputLinkedList();
+                System.out.println("String-Positionen");
+                outputStringPosition();
                 break;
             case 3:
-                System.out.println("Queue");
-                outputQueue();
+                System.out.println("String-Teile-lesen");
+                outputStringTeileLesen();
                 break;
             case 4:
-                System.out.println("Stack");
-                outputStack();
+                System.out.println("String Teile bearbeiten");
+                outputStringTeileBearbeiten();
                 break;
             case 5:
-                System.out.println("HashSet");
-                outputHashSet();
+                System.out.println("String vergleichen");
+                outputStringVergleichen();
                 break;
             case 6:
-                System.out.println("LinkedHashSet");
-                outputLinkedHashSet();
+                System.out.println("StringBuilder");
+                outputStringBuilder();
                 break;
             case 7:
-                System.out.println("HashMap");
-                outputHashMap();
+                System.out.println("StringUmwandlung");
+                outputStringUmwandlung();
                 break;
             case 8:
-                System.out.println("LinkedHashMap");
-                outputLinkedHashMap();
-                break;
-            case 9:
-                System.out.println("HashInformationen");
-                HashInformationen();
-                break;
-            case 10:
-                System.out.println("Datentypen");
-                Datentypen();
-                break;
-            case 11:
-                System.out.println("WeitereMethoden");
-                WeitereMethoden();
-                break;
-            case 12:
-                System.out.println("Hilfsklasse");
-                Hilfsklasse();
-                break;
-            case 13:
                 System.out.println("Return to main menu");
                 Main.main(null);
                 break;
             default:
-                System.out.println("You entered a number that is not between 1 and 9");
+                System.out.println("You entered a number that is not between 1 and 8");
         }
+    }
+
+    private static void outputStringUmwandlung() {
+    }
+
+    private static void outputStringBuilder() {
+        
+    }
+
+    private static void outputStringVergleichen() {
+        
+    }
+
+    private static void outputStringTeileBearbeiten() {
+        
+    }
+
+    private static void outputStringTeileLesen() {
+        
+    }
+
+    private static void outputStringPosition() {
+        
+    }
+
+    private static void outputStrings() {
+        
     }
 
 }

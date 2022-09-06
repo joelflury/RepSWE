@@ -77,7 +77,7 @@ public class LineareDatenstrukturen {
                 Main.main(null);
                 break;
             default:
-                System.out.println("You entered a number that is not between 1 and 9");
+                System.out.println("You entered a number that is not between 1 and 13");
         }
     }
 
