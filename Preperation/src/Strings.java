@@ -21,7 +21,7 @@ public class Strings {
         switch (input) {
             case 1:
                 System.out.println("ArrayList");
-                outputArrayList();
+                outputStrings();
                 break;
             case 2:
                 System.out.println("LinkedList");
