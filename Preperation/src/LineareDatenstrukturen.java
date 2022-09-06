@@ -14,7 +14,11 @@ public class LineareDatenstrukturen {
         System.out.println("6. LinkedHashSet");
         System.out.println("7. HashMap");
         System.out.println("8. LinkedHashMap");
-        System.out.println("12. Return to main menu");
+        System.out.println("9. HashInformationen");
+        System.out.println("10. Datentypen");
+        System.out.println("11. WeitereMethoden");
+        System.out.println("11. Hilfskalssen");
+        System.out.println("13. Return to main menu");
         //Read input
         int input = sc.nextInt();
 
