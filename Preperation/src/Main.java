@@ -12,19 +12,19 @@ public class Main {
         System.out.println("03. OO-Konzepte");
         System.out.println("04. Klassen und Objekte mit Variablen");
         System.out.println("05. Klassen und Objekte mit Methoden");
-        System.out.println("06. Repetition 1 Teil");
-        System.out.println("07. Sichtbarkeit");
-        System.out.println("08. Konstruktoren");
-        System.out.println("09. Repetition 2 Teil");
-        System.out.println("10. Statische Variablen und Methoden");
-        System.out.println("11. Datentypen");
-        System.out.println("12. Repetition 3 Teil");
-        System.out.println("13. Strings");
-        System.out.println("14. Vertiefung");
-        System.out.println("15. Beziehungen");
-        System.out.println("16. Repetition 4 Teil");
-        System.out.println("17. Lineare Datenstruktur");
-        System.out.println("Enter a number between 1 and 17");
+        System.out.println("06. Sichtbarkeit");
+        System.out.println("07. Konstruktoren");
+        System.out.println("08. Statische Variablen und Methoden");
+        System.out.println("09. Datentypen");
+        System.out.println("10. Strings");
+        System.out.println("11. Vertiefung");
+        System.out.println("12. Beziehungen");
+        System.out.println("13. Lineare Datenstruktur");
+        //System.out.println("09. Repetition 2 Teil");
+        //System.out.println("06. Repetition 1 Teil");
+        //System.out.println("12. Repetition 3 Teil");
+        //System.out.println("16. Repetition 4 Teil");
+        System.out.println("Enter a number between 1 and 13");
         //Read input
         int input = sc.nextInt();
 
@@ -46,40 +46,44 @@ public class Main {
             case 5:
                 System.out.println("Klassen und Objekte mit Methoden");
                 break;
-            case 6:
+            /*case 14:
                 System.out.println("Repetition 1 Teil");
+                break;*/
+            case 6:
+                System.out.println("Sichtbarkeit");
+                Sichtbarkeit.menu();
                 break;
             case 7:
-                System.out.println("Sichtbarkeit");
-                break;
-            case 8:
                 System.out.println("Konstruktoren");
+               //Konstruktoren.menu();
                 break;
-            case 9:
+            /*case 15:
                 System.out.println("Repetition 2 Teil");
-                break;
-            case 10:
+                break;*/
+            case 8:
                 System.out.println("Statische Variablen und Methoden");
                 break;
-            case 11:
+            case 9:
                 System.out.println("Datentypen");
+                //Datentypen.menu();
                 break;
-            case 12:
+            /*case 16:
                 System.out.println("Repetition 3 Teil");
-                break;
-            case 13:
+                break;*/
+            case 10:
                 System.out.println("Strings");
+                Strings.menu();
                 break;
-            case 14:
+            case 11:
                 System.out.println("Vertiefung");
                 break;
-            case 15:
+            case 12:
                 System.out.println("Beziehungen");
                 break;
-            case 16:
+            /*case 17:
                 System.out.println("Repetition 4 Teil");
-                break;
-            case 17:
+                break;*/
+            case 13:
                 System.out.println("Lineare Datenstruktur");
                 LineareDatenstrukturen.menu();
                 break;
@@ -88,7 +92,7 @@ public class Main {
                 System.exit(0);
                 break;
             default:
-                System.out.println("You entered a number that is not between 1 and 17");
+                System.out.println("You entered a number that is not between 1 and 13");
         }
     }
 }
